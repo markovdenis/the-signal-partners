@@ -2,8 +2,8 @@
 
 :root {
   --content-width: 1280px;
-  --section-space: 120px;
-  --section-space-mobile: 84px;
+  --section-space: 112px;
+  --section-space-mobile: 76px;
   --font-sans: "Jost Variable", "Jost", "Avenir Next", "Segoe UI", Arial, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   --ink: #07152d;
@@ -415,11 +415,13 @@ input:focus-visible {
 }
 
 .problem {
-  display: block;
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+  gap: 50px;
 }
 
 .problem-content {
-  margin-top: 40px;
+  margin-top: 0;
 }
 
 .problem-content > h2,
@@ -615,26 +617,26 @@ article:hover > .card-icon {
 
 .market-logo {
   display: flex;
-  height: 30px;
+  height: 42px;
   align-items: center;
-  opacity: .48;
 }
 
 .market-logo img {
   display: block;
   width: auto;
-  max-width: 126px;
-  max-height: 24px;
-  padding: 0;
-  background: transparent;
-  filter: grayscale(1) brightness(0) invert(1);
+  max-width: 148px;
+  max-height: 32px;
+  padding: 7px 10px;
+  border-radius: 2px;
+  background: #f5f7f8;
+  filter: none;
 }
 
 .market-logo-worldquant img {
-  max-width: 138px;
-  padding: 0;
-  background: transparent;
-  filter: grayscale(1);
+  max-width: 162px;
+  padding: 9px 12px;
+  background: #ff4a19;
+  filter: none;
 }
 
 .market-proof-examples article > p {
@@ -2313,8 +2315,8 @@ article:hover > .card-icon {
 
 .packages-heading {
   display: grid;
-  grid-template-columns: 1.35fr .65fr;
-  gap: 80px;
+  grid-template-columns: 1.2fr .8fr;
+  gap: 90px;
   align-items: end;
 }
 
