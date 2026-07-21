@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { SignalIcon } from "./components/SignalIcon";
 
 const demoCandidate = {
@@ -414,7 +413,7 @@ export default function Home() {
             <div className="market-proof-examples" aria-label="Примеры рынка">
               <article>
                 <span className="market-logo">
-                  <Image src="/market-logos/citadel.svg" alt="Citadel" width={145} height={19} unoptimized />
+                  <img src="market-logos/citadel.svg" alt="Citadel" width={145} height={19} />
                 </span>
                 <p>
                   <strong>Datathon.</strong> Участники исследуют сложный датасет и
@@ -423,7 +422,7 @@ export default function Home() {
               </article>
               <article>
                 <span className="market-logo market-logo-worldquant">
-                  <Image src="/market-logos/worldquant.svg" alt="WorldQuant" width={188} height={20} unoptimized />
+                  <img src="market-logos/worldquant.svg" alt="WorldQuant" width={188} height={20} />
                 </span>
                 <p>
                   <strong>International Quant Championship.</strong> Участники создают
@@ -433,7 +432,7 @@ export default function Home() {
               </article>
               <article>
                 <span className="market-logo">
-                  <Image src="/market-logos/imc.svg" alt="IMC" width={178} height={33} unoptimized />
+                  <img src="market-logos/imc.svg" alt="IMC" width={178} height={33} />
                 </span>
                 <p>
                   <strong>Prosperity.</strong> Участники решают задачи по ручному и
