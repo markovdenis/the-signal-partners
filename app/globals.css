@@ -617,26 +617,26 @@ article:hover > .card-icon {
 
 .market-logo {
   display: flex;
-  height: 42px;
+  height: 30px;
   align-items: center;
+  opacity: .48;
 }
 
 .market-logo img {
   display: block;
   width: auto;
-  max-width: 148px;
-  max-height: 32px;
-  padding: 7px 10px;
-  border-radius: 2px;
-  background: #f5f7f8;
-  filter: none;
+  max-width: 126px;
+  max-height: 24px;
+  padding: 0;
+  background: transparent;
+  filter: grayscale(1) brightness(0) invert(1);
 }
 
 .market-logo-worldquant img {
-  max-width: 162px;
-  padding: 9px 12px;
-  background: #ff4a19;
-  filter: none;
+  max-width: 138px;
+  padding: 0;
+  background: transparent;
+  filter: grayscale(1);
 }
 
 .market-proof-examples article > p {
